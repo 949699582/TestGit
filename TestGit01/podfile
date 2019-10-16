@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+target 'TestGit01' do
+
+pod 'UMCCommon'
+
+end
