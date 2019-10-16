@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"测试git01");
+    NSLog(@"test Git02");
 }
 
 
