@@ -10,4 +10,9 @@
 
 @implementation Dog
 
+- (void)barkComplete:(void(^)(NSString *info))complete{
+    
+    complete(@"狗叫了");
+}
+
 @end

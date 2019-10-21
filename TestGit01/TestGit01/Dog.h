@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Dog : NSObject
 
+- (void)barkComplete:(void(^)(NSString *info))complete;
+
 @end
 
 NS_ASSUME_NONNULL_END
