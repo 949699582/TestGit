@@ -21,8 +21,8 @@
     // Do any additional setup after loading the view.
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    NSLog(@"测试git01");
-    NSLog(@"test Git02");
+    
+    
     Dog *xiaobai = [[Dog alloc] init];
     [xiaobai barkComplete:^(NSString * _Nonnull info) {
         NSLog(@"info =%@",info);
