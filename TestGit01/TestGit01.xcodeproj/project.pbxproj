@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51BFAC9DC6533F12CF3B6A0A /* libPods-TestGit01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB37DAC19AA8E192FC58721 /* libPods-TestGit01.a */; };
-		F03474C1237B9FB300CA16D2 /* Test02.m in Sources */ = {isa = PBXBuildFile; fileRef = F03474C0237B9FB300CA16D2 /* Test02.m */; };
+		F036021C237BDD5200D21FD2 /* Test03.m in Sources */ = {isa = PBXBuildFile; fileRef = F036021B237BDD5200D21FD2 /* Test03.m */; };
 		F06167D0236A88E00056D548 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F06167CF236A88E00056D548 /* Game.m */; };
 		F085CCDF2356F8720064D0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F085CCDE2356F8720064D0D8 /* AppDelegate.m */; };
 		F085CCE22356F8720064D0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F085CCE12356F8720064D0D8 /* ViewController.m */; };
@@ -25,8 +25,8 @@
 		6D802EF3FAAFDBD505A9AE41 /* Pods-TestGit01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestGit01/Pods-TestGit01.release.xcconfig"; sourceTree = "<group>"; };
 		D6AB79AA313A2CC03890B8A9 /* Pods-TestGit01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestGit01/Pods-TestGit01.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB37DAC19AA8E192FC58721 /* libPods-TestGit01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGit01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03474BF237B9FB300CA16D2 /* Test02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test02.h; sourceTree = "<group>"; };
-		F03474C0237B9FB300CA16D2 /* Test02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test02.m; sourceTree = "<group>"; };
+		F036021A237BDD5200D21FD2 /* Test03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test03.h; sourceTree = "<group>"; };
+		F036021B237BDD5200D21FD2 /* Test03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test03.m; sourceTree = "<group>"; };
 		F06167CE236A88E00056D548 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		F06167CF236A88E00056D548 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		F085CCDA2356F8720064D0D8 /* TestGit01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit01.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,8 +103,8 @@
 				F085CCE12356F8720064D0D8 /* ViewController.m */,
 				F0A6F96A235D89A70010B658 /* ViewController2.h */,
 				F0A6F96B235D89A70010B658 /* ViewController2.m */,
-				F03474BF237B9FB300CA16D2 /* Test02.h */,
-				F03474C0237B9FB300CA16D2 /* Test02.m */,
+				F036021A237BDD5200D21FD2 /* Test03.h */,
+				F036021B237BDD5200D21FD2 /* Test03.m */,
 				F0A6F967235D84630010B658 /* Person.h */,
 				F0A6F968235D84630010B658 /* Person.m */,
 				F06167CE236A88E00056D548 /* Game.h */,
@@ -217,8 +217,8 @@
 				F0A6F969235D84630010B658 /* Person.m in Sources */,
 				F085CCF8235707570064D0D8 /* Dog.m in Sources */,
 				F085CCDF2356F8720064D0D8 /* AppDelegate.m in Sources */,
-				F03474C1237B9FB300CA16D2 /* Test02.m in Sources */,
 				F06167D0236A88E00056D548 /* Game.m in Sources */,
+				F036021C237BDD5200D21FD2 /* Test03.m in Sources */,
 				F0A6F96C235D89A70010B658 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
