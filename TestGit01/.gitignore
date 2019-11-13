@@ -22,3 +22,8 @@ DerivedData
 Pods
 Podfile.lock
 xcschemes
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+/*.gcno
