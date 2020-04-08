@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D802EF3FAAFDBD505A9AE41 /* Pods-TestGit01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestGit01/Pods-TestGit01.release.xcconfig"; sourceTree = "<group>"; };
-		D6AB79AA313A2CC03890B8A9 /* Pods-TestGit01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestGit01/Pods-TestGit01.debug.xcconfig"; sourceTree = "<group>"; };
+		3A39AFAB5378EE4ADE211671 /* Pods-TestGit01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.release.xcconfig"; path = "Target Support Files/Pods-TestGit01/Pods-TestGit01.release.xcconfig"; sourceTree = "<group>"; };
+		76B85E40EE70B4B29AE3DF57 /* Pods-TestGit01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGit01.debug.xcconfig"; path = "Target Support Files/Pods-TestGit01/Pods-TestGit01.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB37DAC19AA8E192FC58721 /* libPods-TestGit01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGit01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F036021A237BDD5200D21FD2 /* Test03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test03.h; sourceTree = "<group>"; };
 		F036021B237BDD5200D21FD2 /* Test03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test03.m; sourceTree = "<group>"; };
@@ -59,13 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D4C492B264A3DA34FF4844E /* Pods */ = {
+		8084DD5BFEAA9B562B77506E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6AB79AA313A2CC03890B8A9 /* Pods-TestGit01.debug.xcconfig */,
-				6D802EF3FAAFDBD505A9AE41 /* Pods-TestGit01.release.xcconfig */,
+				76B85E40EE70B4B29AE3DF57 /* Pods-TestGit01.debug.xcconfig */,
+				3A39AFAB5378EE4ADE211671 /* Pods-TestGit01.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		AB1876EA7352E5B8203F76EB /* Frameworks */ = {
@@ -81,8 +82,8 @@
 			children = (
 				F085CCDC2356F8720064D0D8 /* TestGit01 */,
 				F085CCDB2356F8720064D0D8 /* Products */,
-				9D4C492B264A3DA34FF4844E /* Pods */,
 				AB1876EA7352E5B8203F76EB /* Frameworks */,
+				8084DD5BFEAA9B562B77506E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -359,36 +360,38 @@
 		};
 		F085CCF12356F8730064D0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6AB79AA313A2CC03890B8A9 /* Pods-TestGit01.debug.xcconfig */;
+			baseConfigurationReference = 76B85E40EE70B4B29AE3DF57 /* Pods-TestGit01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7PC95A3RUN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3JK526JBF3;
 				INFOPLIST_FILE = TestGit01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhq949699582.TestGit01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinyin.zjk.gucheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gucheng_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F085CCF22356F8730064D0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D802EF3FAAFDBD505A9AE41 /* Pods-TestGit01.release.xcconfig */;
+			baseConfigurationReference = 3A39AFAB5378EE4ADE211671 /* Pods-TestGit01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7PC95A3RUN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3JK526JBF3;
 				INFOPLIST_FILE = TestGit01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhq949699582.TestGit01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinyin.zjk.gucheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gucheng_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
