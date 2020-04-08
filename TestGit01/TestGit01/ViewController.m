@@ -36,6 +36,8 @@
     ViewController2 *vc2 = [[ViewController2 alloc] init];
     vc2.delegate = self;
     [self.navigationController pushViewController:vc2 animated:YES];
+    
+    NSLog(@"111");
 }
 
 - (void)vc2Delegate:(NSString *)string{
