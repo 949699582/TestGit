@@ -17,6 +17,7 @@
 		F085CCEA2356F8730064D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F085CCE82356F8730064D0D8 /* LaunchScreen.storyboard */; };
 		F085CCED2356F8730064D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F085CCEC2356F8730064D0D8 /* main.m */; };
 		F085CCF8235707570064D0D8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F085CCF7235707570064D0D8 /* Dog.m */; };
+		F0A53E4C243D9AD600D156EB /* Test04.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A53E4B243D9AD600D156EB /* Test04.m */; };
 		F0A6F969235D84630010B658 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F968235D84630010B658 /* Person.m */; };
 		F0A6F96C235D89A70010B658 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F96B235D89A70010B658 /* ViewController2.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,8 @@
 		F085CCEC2356F8730064D0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F085CCF6235707570064D0D8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		F085CCF7235707570064D0D8 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		F0A53E4A243D9AD600D156EB /* Test04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test04.h; sourceTree = "<group>"; };
+		F0A53E4B243D9AD600D156EB /* Test04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test04.m; sourceTree = "<group>"; };
 		F0A6F967235D84630010B658 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F0A6F968235D84630010B658 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F0A6F96A235D89A70010B658 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -65,7 +68,6 @@
 				76B85E40EE70B4B29AE3DF57 /* Pods-TestGit01.debug.xcconfig */,
 				3A39AFAB5378EE4ADE211671 /* Pods-TestGit01.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +106,8 @@
 				F085CCE12356F8720064D0D8 /* ViewController.m */,
 				F0A6F96A235D89A70010B658 /* ViewController2.h */,
 				F0A6F96B235D89A70010B658 /* ViewController2.m */,
+				F0A53E4A243D9AD600D156EB /* Test04.h */,
+				F0A53E4B243D9AD600D156EB /* Test04.m */,
 				F036021A237BDD5200D21FD2 /* Test03.h */,
 				F036021B237BDD5200D21FD2 /* Test03.m */,
 				F0A6F967235D84630010B658 /* Person.h */,
@@ -214,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F085CCE22356F8720064D0D8 /* ViewController.m in Sources */,
+				F0A53E4C243D9AD600D156EB /* Test04.m in Sources */,
 				F085CCED2356F8730064D0D8 /* main.m in Sources */,
 				F0A6F969235D84630010B658 /* Person.m in Sources */,
 				F085CCF8235707570064D0D8 /* Dog.m in Sources */,
